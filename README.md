@@ -14,3 +14,4 @@ In the provided example, the elements of the Chain of Responsibility pattern can
 4. __Client__: The client is the ATMDispenseChain class that creates and initializes the chain of handlers. It sends the request to the first handler in the chain by calling the dispense() method.
 5. __Context__: The context includes the ATMDispenseChain class, which manages the chain of handlers and ensures that the request is passed along the chain until it is handled.
 # Class Diagram
+![Blank diagram](https://github.com/JamesManalili/Chain-of-Responsibility-Design-Pattern/assets/142465145/6a186e64-2c2b-468a-947c-929c8fcace4d)
